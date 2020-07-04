@@ -1,0 +1,153 @@
+body {
+	background-color: rgb(237, 237, 238);
+}
+
+/* HEADER */
+.header {
+	background-image: url(../IMG/104059193_570087567274568_2879401994062044779_n.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: bottom 0px right 0px;
+}
+
+.logo {
+	width: 20%;
+	border-radius: 100px;
+}
+
+/* END HEADER */
+
+/* ICONE RESEAUX SOCIAUX */
+/* .lesicones {
+	height: 30px;
+} */
+.lesicones>a {
+	height: 100%;
+}
+
+i>img {
+	height: 25px;
+}
+
+/* NAVBAR */
+nav {
+	border-top: solid 2px rgb(249, 178, 50);
+	height: 40px;
+	background-color: rgb(61, 61, 61);
+}
+
+.nav-pills {
+	font-size: 100%;
+}
+
+.nav-link {
+	padding: 0px;
+	margin-left: 10px;
+}
+
+li>a {
+	font-size: 1.5em;
+	list-style: none;
+	color: white;
+}
+
+li>a:hover {
+	color: rgb(249, 178, 50);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background-color: rgb(249, 178, 50);
+	color: black;
+}
+
+.show {
+	padding: 0;
+	background-color: rgba(61, 61, 61, 0.8);
+}
+
+.dropdown-item {
+	color: white;
+	border-bottom: solid 1px rgb(249, 178, 50);
+}
+
+.bouton-menu {
+	left: 10px;
+	height: 40px;
+}
+
+.menu-burger {
+	height: 100%;
+	background: rgb(249, 178, 50);
+	border-radius: 30%;
+}
+
+/* END NAVBAR */
+
+/* CAROUSSEL */
+.parent-carousel * {
+	max-height: 500px;
+	max-width: 960px;
+}
+
+/* END CAROUSSEL */
+
+
+/* CARD */
+
+.card-1,.card-2,.card-3 {
+	width: 100%;
+	display: flex;
+	color: white;
+}
+
+
+
+.imgcard {
+	width: 50%;
+}
+
+.macard {
+	width: 50%;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	background-color: rgb(61, 61, 61);
+}
+
+.macard>ul {
+	list-style: none;
+	color: rgb(237, 237, 238);
+}
+
+/* END CARD */
+
+/* FOOTER */
+
+footer {
+	height: 200px;
+	background-color: rgb(61, 61, 61);
+	display: flex;
+	align-items: center;
+}
+
+.imgfooter * {
+	background-color: white;
+	max-width: 200px;
+	border-radius: 100%;
+}
+
+
+/* END FOOTER */
+
+
+@media all and (max-width: 992px) {
+	.nav-item {
+		color: white;
+		border-bottom: solid 1px rgb(249, 178, 50);
+	}
+
+	.nav-link {
+		color: white;
+	}
+}
